@@ -1,0 +1,20 @@
+h1 {
+  color: green;
+}
+
+.para {
+  color: green;
+  background-color: aqua;
+}
+
+.box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 20px;
+    border: 10px solid black;
+    
+
+
+}
