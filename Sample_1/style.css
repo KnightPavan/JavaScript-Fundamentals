@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+div{
+    display: flex;
+    margin : .5rem;
+    padding : 1rem;
+    border: 3px solid black;
+    min-height: 1rem;
+    flex-grow: 1;
+}
+
+.grandparent {
+    
+    background-color: hsl(0, 50%, 50%);
+    flex-direction: column;
+    /* height: 500px; */
+    /* width: 500px; */
+}
+
+.parent{
+    background-color: hsl(100, 50%, 50%);
+}
+
+.child{
+    background-color: hsl(200, 50%, 50%);
+}
+
