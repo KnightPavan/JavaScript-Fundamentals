@@ -125,7 +125,7 @@
 // Custom error using Error object
 
 const getTodes = async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/todo/2')
+  const response = await fetch('https://jsonplaceholder.typicode.com/todos/2')
 
   if(response.status !== 200) {
     throw new Error("Enter the correct url")
