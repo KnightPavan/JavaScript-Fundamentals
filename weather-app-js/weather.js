@@ -16,6 +16,7 @@ async function getWeather () {
 
 }
 
+getWeather()
 function parseHourlyWeather ({ hourly, current }) {
   return hourly.time
     .map((time, index) => {
