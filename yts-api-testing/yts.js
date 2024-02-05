@@ -1,4 +1,3 @@
-
 async function getMovieInfo (url) {
     console.log("started");
   const response = await fetch(url)
